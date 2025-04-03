@@ -4,40 +4,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rego's Personal Website</title>
+  <title>Regomoditswe</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
   <header>
-    <h1>Rego<h4>moditswe</h4></h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about_me">About Me</a></li>
-        <li><a href="#contact_me">Contact Me</a></li>
-      </ul>
+        <h1>Rego</h1>
+    <nav class="menu">
+    <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about_me">About Me</a></li>
+    <li><a href="#contact_me">Contact Me</a></li>
+    </ul>
     </nav>
   </header>
-  <hr>
-  <div id="home">
-    <img src="images/IMG-3.jpg" alt="Rego's Picture" width="300">
+<div id="home">
+  <div class="text-container">
     <h1>Regomoditswe</h1>
-    <p>I am an aspiring web developer passionate about creating visually stunning and interactive web experiences. I
-      enjoy transforming ideas into functional and user-friendly designs. I am
-      continuously learning and exploring new technologies to enhance my skills, and I am eager to collaborate on
-      innovative
-      projects that push the boundaries of web development.</p>
-      <button>Hire Me</button><button>Let's Collaborate</button><button><a href="images/R Lebelela CV.pdf" download>Download CV</a></button>
-      <br><br>
+    <p>
+      I am an aspiring web developer passionate about creating visually stunning and interactive web experiences. I
+      enjoy transforming ideas into functional and user-friendly designs. I am continuously learning and exploring
+      new technologies to enhance my skills, and I am eager to collaborate on innovative projects that push the
+      boundaries of web development.
+    </p>
+    <div class="buttons">
+      <button>Hire Me</button>
+      <button>Let's Collaborate</button>
+      <button><a href="images/R Lebelela CV.pdf" download>Download CV</a></button>
+    </div>
+  </div>
+  <div class="image-container">
     <img src="images/IMG-3.jpg" alt="Rego's Picture" width="300">
   </div>
-  <hr>
+</div>
+
   <div id="about_me">
     <h1>About Me</h1>
     <p>Hi, I’m Regomoditswe Lebelela, and I’m currently learning web development to build interactive and user-friendly
-      websites. I have a strong interest in front-end development and enjoy experimenting with HTML, CSS, and JavaScript
-      to
-      create visually appealing designs.</p>
+      websites. I have a strong interest in front-end development and I enjoy creating visually appealing designs.</p>
 
     <p>As I continue my learning journey, I’m working on small projects like a Clock and a Weather App
       to
@@ -48,10 +55,21 @@
     <p>My goal is to keep learning, improving, and eventually contribute to exciting web projects that make a difference.</p>
 
     <p>I’m excited about this journey and always open to learning from others!</p>
-    <button>Hire Me</button><button>Let's Collaborate</button><button><a href="images/R Lebelela CV.pdf" download>Download
-        CV</a></button>
+    <h1>Skills</h1>
+    <ul>
+      <li><i class="fab fa-html5"></i> HTML</li>
+      <li><i class="fab fa-css3-alt"></i> CSS</li>
+      <li><i class="fab fa-js"></i> JavaScript</li>
+      <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+      <li><i class="fab fa-git-alt"></i> Git</li>
+      <li><i class="fab fa-github"></i> GitHub</li>
+      <li><i class="fab fa-figma"></i> Figma</li>
+      <li><i class="fas fa-database"></i> MySQL</li>
+      <li><i class="fab fa-php"></i> PHP</li>
+      <li><i class="fab fa-java"></i> Java</li>
+    </ul>
   </div>
-  <hr>
+
   <div id="contact_me">
     <h1>Contact Me</h1>
     <form>
@@ -69,18 +87,21 @@
   </div>
   <hr>
   <footer>
+    <div class="footer-logo">
+      <img src="images/logo.png" alt="Logo" class="logo">
+    </div>
     <nav>
       <ul>
-        <li><a href="https://www.linkedin.com/in/regomoditswe-cynthia-lebelela-97b401284" target="_blank">LinkedIn</a>
-        </li>
-        <li><a href="https://www.github.com/CynthiaLebelela" target="_blank">GitHub</a></li>
-        <li><a href="tel:+271234567" target="_blank">Contact Number</a></li>
+        <li><a href="https://www.linkedin.com/in/regomoditswe-cynthia-lebelela-97b401284" target="_blank"><i
+              class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://www.github.com/CynthiaLebelela" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="tel:+271234567" target="_blank"><i class="fas fa-phone-alt"></i></a></li>
         <li><a
             href="https://www.google.com/maps/place/Pretoria/@-25.75865,28.1979505,11z/data=!3m1!4b1!4m6!3m5!1s0x1e95619cbec65033:0xf66262b07a847b4c!8m2!3d-25.7565723!4d28.1913815!16zL20vMDY3ejQ?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
-            target="_blank">Location</a></li>
+            target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>
       </ul>
     </nav>
+    <p>&copy;2025 Regomoditswe Lebelela</p>
   </footer>
 </body>
-
 </html>
